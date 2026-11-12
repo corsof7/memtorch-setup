@@ -63,6 +63,16 @@ bash run.sh examples/ejemplo.py
 bash run.sh examples/characterization.py
 ```
 
+## Google Colab
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/corsof7/memtorch-setup/blob/main/notebooks/memtorch_colab.ipynb)
+
+El notebook [`notebooks/memtorch_colab.ipynb`](notebooks/memtorch_colab.ipynb) instala MemTorch en Colab y ejecuta los dos ejemplos. Colab usa Python 3.12 o más nuevo, así que el notebook crea un entorno aparte con Python 3.9 en `/content/mt` y guarda las gráficas como imágenes para mostrarlas.
+
+Como este repositorio es privado, la primera vez Colab te pedirá autorizar tu cuenta de GitHub. Si el botón no funciona, en Colab ve a **Archivo → Abrir notebook → GitHub**, marca **Incluir repositorios privados** y busca `corsof7/memtorch-setup`.
+
+Colab borra todo al desconectarse: en cada sesión nueva hay que repetir la celda de instalación (2–3 minutos).
+
 ## Contenido
 
 | Archivo | Para qué sirve |
@@ -72,6 +82,7 @@ bash run.sh examples/characterization.py
 | `GUIA.md` | Guía paso a paso para principiantes en Python |
 | `examples/ejemplo.py` | Red ideal frente a red memristiva (crossbars VTEAM) |
 | `examples/characterization.py` | Ciclo de histéresis y conmutación bipolar de un memristor |
+| `notebooks/memtorch_colab.ipynb` | Instalación y ejemplos en Google Colab |
 
 ## Qué arregla `install.sh`
 
